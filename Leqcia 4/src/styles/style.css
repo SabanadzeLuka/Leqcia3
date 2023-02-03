@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.list-style{
+    list-style: none;
+}
+.nav-item{
+    font-size: 16px;
+}
+.header{
+    background-color: black;
+    padding: 20px;
+}
+.col-6{
+    width: 45%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.banner-header{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+.banner-text{
+    text-align: center;
+}
+.col-3{
+    width: 25%;
+}
+.image-container{
+    width: 50%;
+}
