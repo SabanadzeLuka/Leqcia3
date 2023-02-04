@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     color: aliceblue;
@@ -45,4 +48,42 @@ img{
 }
 .image-container{
     width: 50%;
+}
+.textarea-container{
+    margin-top: 16px;
+}
+.btn{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: orange;
+    box-shadow: 13px 14px 47px 15px rgba(55,41,4,0.66);
+-webkit-box-shadow: 13px 14px 47px 15px rgba(55,41,4,0.66);
+-moz-box-shadow: 13px 14px 47px 15px rgba(55,41,4,0.66);
+transition-delay: 0.5s;
+}
+input{
+    width: 250px;
+    height: auto;
+}
+textarea{
+    width: 100%;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: black;
+    margin-top: 200px;
+}
+.copyright{
+color: aliceblue;
+}
+.copyright_marg{
+    margin-top: 50px;
 }

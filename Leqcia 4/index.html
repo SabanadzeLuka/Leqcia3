@@ -50,26 +50,36 @@
         </div>
     </section>
     <section id="contact">
-        <div>
+        <div class="row">
             <form>
-                <input>
-                <input>
-                <input>
+                <div class="input-container">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter Your Name">
+                    <label>Email</label>
+                    <input type="Email" placeholder="Enter Your Email">
+                </div>
+                <div class="row textarea-container">
+                    <label>Contact</label>
+                    <textarea placeholder="So whats on your mind"></textarea>
+                </div>
+                <div class="row">
+                    <button class="btn">Contact Us</button>
+                </div>
             </form>
         </div>
     </section>
     <footer>
         <div>
-            <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
+            <nav class="header">
+                <ul class="row list-style">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <p><a href="/pdf">სალიცენზიო შეთანხმება,</a> Copyright by Luka Sabanadze</p>
+        <div class="row copyright_marg">
+            <p><a href="/pdf">სალიცენზიო შეთანხმება,</a><span class="copyright">Copyright by Luka Sabanadze</span></p>
         </div>
     </footer>
 </body>
